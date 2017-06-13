@@ -1,0 +1,19 @@
+Package: vardist
+Type: Package
+Title: vardist (http://github.com/avantcredit/vardist)
+Description: Variable distribution summaries in an easy-to-consume format.
+Version: 0.4.2
+Author: Abel Castillo <abel.castillo@avant.com>
+Maintainer: Abel Castillo <abel.castillo@avant.com>
+Authors@R: c(person("Abel", "Castillo",
+    email = "abel.castillo@avant.com", role = c("aut", "cre")))
+Depends:
+    R (>= 3.0.1),
+    magrittr
+License: MIT
+LazyData: true
+Imports:
+Suggests:
+    testthat
+Roxygen: list(wrap = FALSE)
+RoxygenNote: 5.0.1
