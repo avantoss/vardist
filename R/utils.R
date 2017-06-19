@@ -1,4 +1,6 @@
-# Copyright 2014-2017 Avant. Full copy of license can be found at https://github.com/avantcredit/vardist#license
+# Copyright 2017 Avant
+# This file is licensed under the MIT license. For a full copy of the license, see: 
+# https://github.com/avantoss/open-source/blob/master/LICENSE_MIT
 
 get_common_columns <- function(df1, df2) {
   common_columns <- intersect(names(df1), names(df2))
